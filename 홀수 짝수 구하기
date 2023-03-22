@@ -1,9 +1,0 @@
-while(True) :
-  num=int(input("input the number :"))
-  if num == 0 :
-    print("stop")
-    break
-  if num%2==0:
-    print(num, "is even") #even은 짝수
-  else : 
-    print(num, "is odd") #odd는 홀수 
