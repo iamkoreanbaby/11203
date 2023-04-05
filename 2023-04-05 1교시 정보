@@ -1,0 +1,21 @@
+A = int(input("가위=1,바위=2,보=3 중 한가지를 내시오 : "))
+B = int(input("가위=1,바위=2,보=3 중 한가지를 내시오 : "))
+if  A==3 :
+  if B==3 :
+    print("비김")
+  elif B==1 :
+    print("B승리")
+  elif B==2 :
+    print("A승리")
+elif B==3 :
+  if A==1 :
+    print("A승리")
+  elif A==2 :
+    print("B승리")
+elif A>B :
+  print("A승리")
+elif A<B :
+  print("B승리")
+else :
+  print("비김")
+  
