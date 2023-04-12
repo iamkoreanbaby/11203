@@ -1,0 +1,5 @@
+print('팅 팅팅팅 탱 탱탱탱 팅팅 탱탱 후라이팬 놀이!')
+for i in range(5) :
+  a = input('이름을 입력하시오')
+  b=int(input('횟수를 입력하시오'))
+  print(a*b)
