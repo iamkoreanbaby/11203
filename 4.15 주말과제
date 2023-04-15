@@ -1,0 +1,19 @@
+S = int(input("학점을 입력하시요"))
+
+if S < 0 or S > 100 :
+  print("잘못된 학점입니다.")
+
+elif S > 80  :
+  print("A")
+
+elif S > 60 :
+  print("B")
+
+elif S > 40 :
+  print("C")
+
+elif S > 20 : 
+  print("D")
+
+else :
+  print("E")
