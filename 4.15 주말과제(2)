@@ -1,0 +1,18 @@
+N = input("당신의 전화번호를 입력하시오 ex)000-0000-0000\n")
+
+M = N.split('-')[0]
+
+if M == "011" :
+  print("SKT")
+
+elif M == "016" :
+  print("KT")
+
+elif M == "019" :
+  print("LGU")
+
+elif M == "010" :
+  print("알수없음")
+
+else :
+  print("")
