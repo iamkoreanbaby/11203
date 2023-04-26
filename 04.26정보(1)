@@ -1,0 +1,11 @@
+a = int(input("first number : "))
+b = input("연산자")
+c = int(input("second number : "))
+if b == "+":
+  print(a,"+",c,"=",a+c)
+elif b == "-":
+  print(a,"-",c,"=",a-c)
+elif b == "*":
+  print(a,"*",c,"=",a*c)
+else :
+  print(a,"/",c,"=",a/c)
